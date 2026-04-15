@@ -18,17 +18,18 @@ Download the pre-built binary for your platform from the [releases page](https:/
 
 #### Linux
 ```bash
-curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen -o pgen && chmod +x pgen
+sudo curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen -o /usr/local/bin/pgen && sudo chmod +x /usr/local/bin/pgen
 ```
 
 #### Windows
 ```bash
 curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen-windows.exe -o pgen.exe
 ```
+Note: You may need to add the current directory to your PATH or move `pgen.exe` to a directory in your PATH to run it without specifying the path.
 
 #### macOS
 ```bash
-curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen-mac -o pgen && chmod +x pgen
+sudo curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen-mac -o /usr/local/bin/pgen && sudo chmod +x /usr/local/bin/pgen
 ```
 
 After downloading, you can run the binary directly.
