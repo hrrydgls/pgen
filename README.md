@@ -14,21 +14,21 @@ This will download, build, and install the tool to your `$GOPATH/bin` or `$GOBIN
 
 ### Without Go
 
-Download the pre-built binary for your platform:
+Download the pre-built binary for your platform from the [releases page](https://github.com/hrrydgls/pgen/releases):
 
 #### Linux
 ```bash
-curl -L https://github.com/hrrydgls/pgen/raw/master/pgen -o pgen && chmod +x pgen
+curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen -o pgen && chmod +x pgen
 ```
 
 #### Windows
 ```bash
-curl -L https://github.com/hrrydgls/pgen/raw/master/pgen-windows.exe -o pgen.exe
+curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen-windows.exe -o pgen.exe
 ```
 
 #### macOS
 ```bash
-curl -L https://github.com/hrrydgls/pgen/raw/master/pgen-mac -o pgen && chmod +x pgen
+curl -L https://github.com/hrrydgls/pgen/releases/download/v1.0.0/pgen-mac -o pgen && chmod +x pgen
 ```
 
 After downloading, you can run the binary directly.
